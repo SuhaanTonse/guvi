@@ -18,7 +18,7 @@ $(document).ready(function () {
         } else if (response.trim() === "" || response.trim() === "exists") {
           alert("Username already exists. Please choose a different username.");
         } else {
-          alert("Error"); // Display the actual response for debugging
+          alert("Error"); 
         }
       },
       error: function (xhr, status, error) {
